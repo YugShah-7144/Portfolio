@@ -124,7 +124,7 @@ hr {
 
 #spantext:before {
     content: '';
-    animation: animate infinite 1s;
+    animation: animate infinite 3s;
 }
 
 .text {
