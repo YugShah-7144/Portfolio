@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Portfolio | Yug Shah</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon link -->
+    <link rel="icon" href="images/favicon.png">
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="sidebar">
+        <div class="avtar">
+            <img src="images/avtar.jpg" alt="" id="avtar">
+            <p style="margin: 5px 0px; font-size: 25px; font-weight: 600;">Yug Shah</p>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/yugshah-7144/" class="fa fa-linkedin"></a>
+                <a href="https://github.com/YugShah-7144" class="fa fa-github"></a>
+                <a href="https://www.instagram.com/yugshah_7144/" class="fa fa-instagram"></a>
+                <a href="https://codeblogs1708.blogspot.com/" class="fa fa-laptop"></a>
+            </div>
+        </div>
+        <div class="navitem">
+            <a class="nav-link" href="#about">About</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#projects">Projects</a>
+            <a class="nav-link" href="#contact">Contact</a>
+        </div>
+        <div class="footer">
+            <h5 style="border:2px solid #0e59e3; padding: 5px 23px; display: inline-block;">Open to work</h5>
+            <br>
+            <i class="fa fa-whatsapp"></i>
+            <h6 style="display: inline; font-family: 'Poppins', sans-serif;">70169-37842</h6>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="content">
+        <h5 id="animatedtext1">I am a <span id="spantext"></span></h5>
+
+        <section id="about">
+            <div class="heading">About me
+                <hr>
+            </div>
+            <h5 id="animatedtext2">I am a <span id="spantext"></span></h5>
+            <div class="text">
+                <p>My name is Yug Shah and currently I am pursuing my B.tech 4th semester in Computer Engineering from CHARUSAT,Changa. Along with my studies, I also learning technologies like <strong>Node.Js, Express.Js, React.Js, MongoDB database</strong>                    etc.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="heading">Skills
+                <hr>
+            </div>
+            <h6 class="pbar">HTML / CSS</h6>
+            <div class="progress pbar" style="height:0.7rem; font-weight: 600; font-size: 10px;">
+                <div class="progress-bar" role="progressbar" style="width: 70%; background-color: #3f51b5;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+            </div>
+            <h6 class="pbar">Javascript</h6>
+            <div class="progress pbar" style="height:0.7rem; font-weight: 600; font-size: 10px;">
+                <div class="progress-bar" role="progressbar" style="width: 30%; background-color: #3f51b5;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+            </div>
+            <h6 class="pbar">Canva</h6>
+            <div class="progress pbar" style="height:0.7rem; font-weight: 600; font-size: 10px;">
+                <div class="progress-bar" role="progressbar" style="width: 90%; background-color: #3f51b5;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+            </div>
+
+            <div class="flex">
+                <div id="skill2">
+                    <h5>Soft skills</h5>
+                    <li>Always ready to learn</li>
+                    <li>Leadership</li>
+                    <li>Team work</li>
+                    <li>Time managment</li>
+                </div>
+                <div id="skill">
+                    <h5>Other skills </h5>
+                    <li>C/C++</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Data Structure</li>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="heading">Projects
+                <hr>
+            </div>
+            <div class="flex">
+                <div class="card">
+                    <h5>E-classroom</h5>
+                    <h6>Web App</h6>
+                    <p>Files and post sharing app with attendance taker </p>
+                    <p><button>Code</button></p>
+                </div>
+                <div class="card">
+                    <h5>Secure Files</h5>
+                    <h6>Java Desktop App</h6>
+                    <p>Secure any type of file or text with encryption & decryption</p>
+                    <p><button>Code</button></p>
+                </div>
+                <div class="card">
+                    <h5>Automatic Bday Wisher</h5>
+                    <h6>Python</h6>
+                    <p>It autmomatic birthday wish via Email using task schedular</p>
+                    <p><a href="https://github.com/YugShah-7144/Encryption-Decryption"><button> Code</button></a></p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section id="contact">
+            <div class="heading">Contact me
+                <hr>
+            </div>
+            <form action="mailto:yugshah7144@gmail.com" method="post" enctype="text/plain">
+                <div class="row my-3">
+                    <div class="col p-0">
+                        <label for="text">First Name</label>
+                        <input type="text" class="form-control" placeholder="First name" required>
+                    </div>
+                    <div class="col pr-0">
+                        <label for="text">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="row my-3">
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                </div>
+                <div class="row my-3">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="row my-3">
+                    <input type="submit" class="btn mx-auto" style="background-color: #111; color: #f1f1f1; width: 40%;" value="Submit">
+                </div>
+            </form>
+
+        </section>
+
+    </div>
+</body>
+
+</html>
